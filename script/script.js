@@ -89,7 +89,7 @@ let loading = document.querySelector('.main-loading');
                    
                    swal({
                    title: "Thank You 😎 !",
-                   text: "Massage Successfully Sended",
+                   text: "Massage Successfully Sent!",
                    icon: "success",
                    button: "OK",
                    })
@@ -101,7 +101,7 @@ let loading = document.querySelector('.main-loading');
                 error:function (err){
                     swal({
                     title: "Sorry To Say 🥺 !",
-                    text: "Massage Not Send",
+                    text: "Massage Not Sent!",
                     icon: "error",
                     button: "OK",
                     })

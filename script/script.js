@@ -135,7 +135,7 @@ form.addEventListener('submit', (e) => {
       }
      
 
-$('img').mousedown(function
+
 
  
 

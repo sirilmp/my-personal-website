@@ -89,7 +89,7 @@ let loading = document.querySelector('.main-loading');
                    
                    swal({
                    title: "Thank You 😎 !",
-                   text: "Massage Successfully Sent!",
+                   text: "Massage Successfully Sent",
                    icon: "success",
                    button: "OK",
                    })
@@ -101,7 +101,7 @@ let loading = document.querySelector('.main-loading');
                 error:function (err){
                     swal({
                     title: "Sorry To Say 🥺 !",
-                    text: "Massage Not Sent!",
+                    text: "Massage Not Sent",
                     icon: "error",
                     button: "OK",
                     })
@@ -116,13 +116,15 @@ const form = document.getElementById('masssending')
 const name = document.getElementById('name')
 const email = document.getElementById('email')
 const massage = document.getElementById('massage')
+const number = document.getElementById('number')
+const place = document.getElementById('place')
 const button = document.getElementById('button')
 
 
 
 form.addEventListener('submit', (e) => {
 
-   if( name.value !== '' || email.value !== '' || massage.value !== '' ){
+   if( name.value !== '' || email.value !== '' || number.value !== '' || place.value !== '' || massage.value !== '' ){
    
    button.onclick = sending();
    }
@@ -134,9 +136,3 @@ form.addEventListener('submit', (e) => {
       $('.sending').toggleClass("send");
       }
      
-
-
-
- 
-
-

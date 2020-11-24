@@ -134,3 +134,9 @@ form.addEventListener('submit', (e) => {
       $('.sending').toggleClass("send");
       }
      
+
+$('img').mousedown(function (e) {
+  if(e.button == 2) { // right click
+    return false; // do nothing!
+  }
+}

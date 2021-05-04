@@ -513,6 +513,33 @@ section .title-2::after{
 .works  .title-2::after{
     content: "how my works";
 }
+.work-text-h1 {
+  text-align: center;
+  font-size: 100px;
+  position: static;
+  color: #fec400;
+  -webkit-text-fill-color: #001b46;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #fec400;
+}
+.work-text-h2 {
+  text-align: center;
+  font-size: 100px;
+  color: #fff;
+  letter-spacing: 9px;
+  margin-top: -150px;
+  color: #fec400;
+  -webkit-text-fill-color: #001b46;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #fff;
+}
+.work-text-h2 span{
+    color: #fec400;
+    -webkit-text-fill-color: #001b46;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #ffff;
+}
+
 .works  .carousel .card{
     background: #76859C;
     border-radius: 6px;

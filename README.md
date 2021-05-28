@@ -10,3 +10,4 @@ Mainly I am focused two colours #FEC400, #001B46 & also some primary colours whi
 Its as simple design any one can use easily.
 Now I am desabled "Download CV" because its not completed but it will come soon.
 Any one can use very easily.
+For the preview: www.sirilmp.online
